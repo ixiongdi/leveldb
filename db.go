@@ -54,6 +54,8 @@ func init()  {
 // 新建，修改
 func Put(key string, value string) {
 	m[key] = value
+
+	defer Save()
 }
 // 删除
 func Delete(key string)  {
