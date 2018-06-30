@@ -16,5 +16,7 @@ func main()  {
 
 	// 读取
 	fmt.Println(Get("hello"))
+
+	defer Save()
 }
 
