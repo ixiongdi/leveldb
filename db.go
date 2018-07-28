@@ -1,4 +1,4 @@
-package main
+package leveldb
 
 import (
 	"encoding/csv"
@@ -12,7 +12,6 @@ const FILE = "./db.csv"
 
 // 声明一个map
 var m map[string]string
-
 
 func init()  {
 	// 初始化map

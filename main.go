@@ -1,4 +1,4 @@
-package main
+package leveldb
 
 import (
 	"fmt"
@@ -9,6 +9,7 @@ import (
 )
 
 func main()  {
+
 	defer Save()
 
 	// 监听8080端口
